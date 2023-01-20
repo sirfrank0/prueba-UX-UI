@@ -21,3 +21,35 @@
 body{
     background-color: var(--darker);
 }
+
+nav{
+    background-color: var(--dark);
+    border-bottom: 1px solid var(--orange);
+    display: flex;
+    align-items: center;
+}
+
+.drop-button button{
+    background-color: var(--darker);
+    width: 78px;
+    border-radius: 8px;
+    height: 32px;
+    display: flex;
+    color: var(--white);
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-button button{
+    background-color: var(--darker);
+    width: 50px;
+    border-radius: 8px;
+    height: 32px;
+    display: flex;
+    color: var(--white);
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
