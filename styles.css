@@ -29,7 +29,9 @@ nav{
     align-items: center;
 }
 
-.drop-button button{
+
+
+button{
     background-color: var(--darker);
     width: 78px;
     border-radius: 8px;
@@ -40,16 +42,21 @@ nav{
     font-size: 14px;
     align-items: center;
     justify-content: center;
+    border: none;
 }
 
-.user-button button{
-    background-color: var(--darker);
-    width: 50px;
-    border-radius: 8px;
+
+.drop-button button{
+    width: 78px;
     height: 32px;
     display: flex;
     color: var(--white);
-    font-family: 'Nunito', sans-serif;
-    align-items: center;
-    justify-content: center;
+    font-size: 14px;
+}
+
+.user-button button{
+
+    width: 50px;
+
+
 }
