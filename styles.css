@@ -28,6 +28,7 @@ body{
 main{
     padding-left: 1rem;
     padding-right: 1rem;
+    
 
 }
 
@@ -222,10 +223,10 @@ h2{
 
 article{
     background-color: var(--dark);
-    width: 171px;
+    width: 10.6875rem;
     color: var(--white);
-    font-size: 12px;
-    border-radius: 12px;
+    font-size: 0.75rem;
+    border-radius: 0.75rem;
 
     padding-top: 0.3rem;
     display: flex;
@@ -247,7 +248,7 @@ article p{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.4rem;
-    gap: 4px;
+    gap: 0.25rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     
@@ -258,11 +259,11 @@ article p{
 .file_type{
     background-color: var(--white);
     color: var(--darker);
-    border-radius: 12px;
-    width: 52px;
-    height: 22px;
+    border-radius: 0.75rem;
+    width: 3.25rem;
+    height: 1.375rem;
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
     display: flex;
     align-items: center; 
     justify-content: center; 
@@ -384,6 +385,8 @@ footer{
   
   @media (max-width: 390px) {
 
+
+
     .main-bar{
         flex-direction: column;
     }
@@ -408,6 +411,23 @@ footer{
         width: 100%;
        
     }
+
+   article{
+    width: 160px;
+    
+   }
+
+   .img img{
+    width: 130px;
+   }
+
+   .grid-articles{
+  
+    grid-template-columns: repeat(auto-fit, minmax(154px, 0.1fr));
+ 
+
+
+}
 
 
   } 
