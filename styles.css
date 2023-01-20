@@ -226,19 +226,31 @@ article{
     color: var(--white);
     font-size: 12px;
     border-radius: 12px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+
     padding-top: 0.3rem;
     display: flex;
     flex-direction: column;
 
 }
 
+
+article p{
+    text-overflow: ellipsis;
+    
+    white-space: nowrap;
+
+}
+
+
 .file-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.4rem;
+    gap: 4px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
 
 
 }
@@ -263,6 +275,7 @@ article{
     
     justify-content:center;
     margin-bottom: 0.4rem;
+
     
     
 }
@@ -277,6 +290,8 @@ article button{
     align-items: center; 
     justify-content: space-between;
     padding-bottom: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .left-icon-container{
@@ -291,7 +306,6 @@ article button{
     margin-bottom: 2rem;
     
     justify-content: center;
-    align-items: center;
     justify-items: center;
 
 
