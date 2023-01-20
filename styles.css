@@ -28,10 +28,11 @@ body{
 main{
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding-top: 4.5rem;
     
 
 }
@@ -49,6 +50,8 @@ nav{
     height: 48px;
     margin-bottom: 32px;
     width: 100%;
+
+    position: fixed;
 }
 
 .nav-buttons{
