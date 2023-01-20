@@ -20,7 +20,6 @@
 
 body{
     background-color: var(--darker);
-    display: grid;
     height: 100hv;
     
 
@@ -178,10 +177,38 @@ input::placeholder {
     color: var(--white);
     background-color: var(--orange);
     font-size: 24px;
-    justify-content: space-between;
-    display: flex;
     gap: 1rem;
 
+}
+
+.container-sort{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+ 
+}
+
+.sort{
+    background-color: var(--dark);
+    border-radius: 12px;
+    width: 94px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.sort-button{
+    background-color: #403E3A;
+    gap: 8px;
+    
+
+    
+    
+    
+    
+    
 }
 
 
@@ -190,6 +217,7 @@ h2{
     font-weight: 400;
     margin-bottom: 2rem;
     padding-left: 1rem;
+
 }
 
 article{
