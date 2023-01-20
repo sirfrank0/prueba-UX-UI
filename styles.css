@@ -20,6 +20,8 @@
 
 body{
     background-color: var(--darker);
+    height: 100hv;
+
 }
 
 nav{
@@ -27,15 +29,26 @@ nav{
     border-bottom: 1px solid var(--orange);
     display: flex;
     align-items: center;
+    max-width: 1800px;
+    padding-left: 16px;
+    padding-right: 16px;
+    justify-content: space-between;
+    height: 64px;
+    margin-bottom: 32px;
+}
+
+.nav-buttons{
+
+    display: flex;
+    gap: 32px;
+
 }
 
 
 
 button{
     background-color: var(--darker);
-    width: 78px;
     border-radius: 8px;
-    height: 32px;
     display: flex;
     color: var(--white);
     font-family: 'Nunito', sans-serif;
@@ -52,11 +65,35 @@ button{
     display: flex;
     color: var(--white);
     font-size: 14px;
+    gap: 6px;
 }
 
 .user-button button{
-
     width: 50px;
+    height: 32px;
+}
 
+
+
+.main-bar{
+    display: flex;
+}
+
+.section_selected{
+    background-color: var(--white);
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    width: 15%;
+    
+}
+
+.section_selected button{
+    color: var(--dark);
+    background-color: var(--white);
+    gap: 32px;
+    font-size: 24px;
 
 }
