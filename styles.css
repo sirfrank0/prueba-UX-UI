@@ -8,10 +8,13 @@
 
 :root {
     
-    --darker: #1E1D1C;
+    
+    --darker:#5c5a58;
     --dark: #403E3A;
     --white: #E6E5E5;
     --orange: #FB7200;
+
+    --shadow-drop: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.71));
 
   
     font-size: 16px;
@@ -65,6 +68,7 @@ nav{
 
     display: flex;
     gap: 32px;
+    filter: var(--shadow-drop);
 
 }
 
@@ -118,6 +122,7 @@ button{
     justify-content: center;
     border-radius: 12px;
     width: 15%;
+    filter: var(--shadow-drop);
     
     
 }
@@ -149,6 +154,7 @@ button{
     justify-content: space-between;
     padding-left: 1rem;
     padding-right: 1rem;
+    filter: var(--shadow-drop);
     
 }
 
@@ -185,6 +191,7 @@ input::placeholder {
     justify-content: center;
     border-radius: 12px;
     width: 15%;
+    filter: var(--shadow-drop);
     
     
 }
@@ -201,6 +208,7 @@ input::placeholder {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    filter: var(--shadow-drop);
  
 }
 
@@ -246,6 +254,7 @@ article{
     padding-top: 0.3rem;
     display: flex;
     flex-direction: column;
+    filter: var(--shadow-drop);
 
 }
 
