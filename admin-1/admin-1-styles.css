@@ -459,7 +459,20 @@ footer{
 }
 
 
+.mi-animacion {
+    animation: mi-efecto 0.7s ease-in-out;
+  }
+  
+  @keyframes mi-efecto {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
 
+  
 
 
 
@@ -502,6 +515,15 @@ footer{
  
 
   }
+
+
+
+
+
+
+
+
+
   
   @media (max-width: 390px) {
 
@@ -551,6 +573,10 @@ footer{
 
 
   } 
+
+
+
+
 
 
 

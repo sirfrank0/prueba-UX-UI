@@ -372,9 +372,6 @@ h2{
 footer{
     background-color: var(--dark);
     text-align: center;
-
-    
-
     margin-top: auto;
     color: var(--white);
     font-size: 12px;
@@ -385,10 +382,23 @@ footer{
     align-items: center;
     
 
-
-
 }
 
+
+.mi-animacion {
+    animation: mi-efecto 0.7s ease-in-out;
+  }
+  
+  @keyframes mi-efecto {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+  
 
 
 

@@ -48,7 +48,7 @@ main{
     margin: auto; /* centra el contenido */
     align-items: center; /* alinea elementos en el centro */
     justify-content: center; /* alinea elementos en el centro */
-    
+
 }
 
 /* Aplica estilos al elemento nav */
@@ -185,3 +185,18 @@ footer{
 
 
 }
+
+
+.mi-animacion {
+    animation: mi-efecto 0.7s ease-in-out;
+  }
+  
+  @keyframes mi-efecto {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
