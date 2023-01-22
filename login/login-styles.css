@@ -48,6 +48,7 @@ main{
     margin: auto; /* centra el contenido */
     align-items: center; /* alinea elementos en el centro */
     justify-content: center; /* alinea elementos en el centro */
+    
 }
 
 /* Aplica estilos al elemento nav */
