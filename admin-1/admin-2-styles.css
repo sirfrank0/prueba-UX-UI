@@ -293,28 +293,34 @@ h2{
 
 }
 
+#b-red{
+    background-color: #982323;
+    color: var(--white);
 
-.buttons-big-files{
-    display: flex;
-    max-width: 22.4375rem;
-    justify-content: center;
-    gap: 1rem;
+}
 
-    
+
+#b-blue{
+    background-color: #234B98;
+    color: var(--white);
+
+}
+
+
+#b-green{
+    background-color: #23988A;
+    color: var(--white);
+
+}
+
+#b-yellow{
+    background-color: #A7BC25;
+
 }
 
 
 
 
-.button-big-file{
-    background-color: var(--orange);
-    width: 50%;
-    justify-content: space-around;
-    font-size: 20px;
-    display: flex;
-    filter: var(--shadow-drop);
-
-}
 
 
 
