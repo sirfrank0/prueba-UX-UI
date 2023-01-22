@@ -64,6 +64,10 @@ nav{
     z-index: 1;
 }
 
+nav button:hover{
+    cursor: pointer;
+}
+
 .nav-buttons{
 
     display: flex;

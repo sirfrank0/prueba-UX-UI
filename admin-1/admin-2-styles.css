@@ -384,6 +384,10 @@ footer{
 
 }
 
+nav button:hover{
+    cursor: pointer;
+}
+
 
 .mi-animacion {
     animation: mi-efecto 0.7s ease-in-out;
