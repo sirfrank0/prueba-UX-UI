@@ -1,137 +1,128 @@
+/* importa una fuente de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+/* Aplica estilos a todos los elementos */
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box; /* asegura que los bordes no afecten al tamaño del elemento */
+    margin: 0; /* elimina los márgenes */
+    padding: 0; /* elimina los paddings */
 }
 
+/* Define variables de estilo */
 :root {
-    
-    --darker:#5c5a58;
-    --dark: #403E3A;
-    --white: #E6E5E5;
-    --orange: #FB7200;
-
-    --shadow-drop: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.71));
-
-  
-    font-size: 16px;
-    font-family: 'Nunito', sans-serif;
+    --darker:#5c5a58; /* color más oscuro */
+    --dark: #403E3A; /* color oscuro */
+    --white: #E6E5E5; /* color blanco */
+    --orange: #FB7200; /* color naranja */
+    --shadow-drop: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.71)); /* sombra */
+    font-size: 16px; /* tamaño de fuente */
+    font-family: 'Nunito', sans-serif; /* fuente */
 }
 
+/* Aplica estilos al cuerpo de la página */
 body{
-    background-color: var(--darker);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-
-    
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-
+    background-color: var(--darker); /* color de fondo */
+    height: 100vh; /* altura de la página */
+    display: flex; /* permite alinear elementos en el eje horizontal */
+    flex-direction: column; /* alinea elementos en columna */
+    margin: auto; /* centra el contenido */
+    align-items: center; /* alinea elementos en el centro */
+    justify-content: center; /* alinea elementos en el centro */
 }
 
+/* Aplica estilos a los enlaces */
 a{
-    color: inherit;
-    text-decoration: none;
-    display: block;
-    width: 100%;
+    color: inherit; /* hereda el color */
+    text-decoration: none; /* elimina el subrayado */
+    display: block; /* ocupa todo el ancho */
+    width: 100%; /* ocupa todo el ancho */
 }
 
+/* Aplica estilos al elemento main */
 main{
-
-
-    padding-left: 1rem;
-    padding-right: 1rem;
-    max-width: 304px;
-    display: flex;
-    flex-direction: column;
-
-    
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    
-
-
-    
-
+    padding-left: 1rem; /* agrega padding a la izquierda */
+    padding-right: 1rem; /* agrega padding a la derecha */
+    max-width: 304px; /* establece un ancho máximo */
+    display: flex; /* permite alinear elementos en el eje horizontal */
+    flex-direction: column; /* alinea elementos en columna */
+    margin: auto; /* centra el contenido */
+    align-items: center; /* alinea elementos en el centro */
+    justify-content: center; /* alinea elementos en el centro */
 }
 
+/* Aplica estilos al elemento nav */
 nav{
-    background-color: var(--dark);
-    /* border-bottom: 1px solid var(--orange); */
-    box-shadow: 0px -2px 16px #FB7200;
-    display: flex;
-    align-items: center;
-
-    padding-left: 16px;
-    padding-right: 16px;
-    justify-content: space-between;
-    height: 48px;
-    
-    width: 100%;
-    
-
-    
+    background-color: var(--dark); /* color de fondo */
+    box-shadow: 0px -2px 16px #FB7200; /* sombra */
+    display: flex; /* permite alinear elementos en el eje horizontal */
+    align-items: center; /* alinea elementos en el centro */
+    padding-left: 16px; /* agrega padding a la izquierda */
+    padding-right: 16px; /* agrega padding a la derecha */
+    justify-content: space-between; /* distribuye elementos equitativamente */
+    height: 48px; /* altura del elemento */
+    margin-bottom: 32px; /* agrega un margen inferior */
+    width: 100%; /* ocupa todo el ancho */
+    z-index: 1; /* asegura que el elemento esté en primer plano */
 }
 
+/* Aplica estilos a los elementos dentro de .nav-buttons */
 .nav-buttons{
-
-    display: flex;
-    gap: 32px;
-
+    display: flex; /* permite alinear elementos en el eje horizontal */
+    gap: 32px; /* espacio entre elementos */
+    filter: var(--shadow-drop); /* sombra */
 }
 
-
-
+/* Aplica estilos a los botones */
 button{
-    background-color: var(--darker);
-    border-radius: 8px;
-    display: flex;
-    color: var(--white);
-    font-family: 'Nunito', sans-serif;
-    font-size: 14px;
-    align-items: center;
-    justify-content: center;
-    border: none;
+    background-color: var(--darker); /* color de fondo */
+    border-radius: 8px; /* bordes redondos */
+    display: flex; /* permite alinear elementos en el eje horizontal */
+    color: var(--white); /* color de la fuente */
+    font-family: 'Nunito', sans-serif; /* fuente */
+    font-size: 14px; /* tamaño de la fuente */
+    align-items: center; /* alinea elementos en el centro */
+    justify-content: center; /* alinea elementos en el centro */
+    border: none; /* quita el borde */
 }
 
 
+
+/* Aplica estilos a los botones dentro de .drop-button */
 .drop-button button{
-    width: 78px;
-    height: 32px;
-    display: flex;
-    color: var(--white);
-    font-size: 14px;
-    gap: 6px;
+    width: 78px; /* ancho del botón */
+    height: 32px; /* altura del botón */
+    display: flex; /* permite alinear elementos en el eje horizontal */
+    color: var(--white); /* color de la fuente */
+    font-size: 14px; /* tamaño de la fuente */
+    gap: 6px; /* espacio entre elementos */
 }
 
+/* Aplica estilos a los botones dentro de .user-button */
 .user-button button{
-    width: 50px;
-    height: 32px;
+    width: 50px; /* ancho del botón */
+    height: 32px; /* altura del botón */
 }
 
+/* Aplica estilos a los elementos dentro de .login-inputs */
 .login-inputs{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
+    display: flex; /* permite alinear elementos en el eje horizontal */
+    flex-direction: column; /* alinea elementos en columna */
+    gap: 1rem; /* espacio entre elementos */
+    margin-bottom: 0.5rem; /* margen inferior */
 }
 
+/* Aplica estilos a los elementos p dentro de .login-inputs */
 .login-inputs p{
-    color: var(--white);
+    color: var(--white); /* color de la fuente */
 }
 
+/* Aplica estilos a los elementos .forgot-p */
 .forgot-p{
-    color: var(--orange);
-    align-self: flex-start;
-    margin-bottom: 2rem;
-    text-decoration: underline;
-    font-size: 0.75rem;
-
+    color: var(--orange); /* color de la fuente */
+    align-self: flex-start; /* alinea el elemento al inicio */
+    margin-bottom: 2rem; /* margen inferior */
+    text-decoration: underline; /* subrayado */
+    font-size: 0.75rem; /* tamaño de la fuente */
 }
 
 .login-inputs input{
@@ -169,7 +160,7 @@ button{
 }
 
 
-#test{
+#icloud-st{
     gap: 24px;
     
 }
